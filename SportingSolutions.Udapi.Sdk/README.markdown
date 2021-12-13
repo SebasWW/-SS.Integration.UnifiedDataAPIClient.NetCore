@@ -8,7 +8,7 @@ Any bug reports, comments, feedback or enhancements requests are gratefully rece
 
 Dependencies
 ----------------------
-You will need [Microsoft .NET Framework 4.0](http://www.microsoft.com/download/en/details.aspx?id=17718) to compile and use the library on Windows
+You will need Microsoft .NET 6 to compile and use the library on Windows
 
 Licence
 ----------------------
