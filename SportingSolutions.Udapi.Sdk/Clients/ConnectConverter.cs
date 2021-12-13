@@ -51,10 +51,6 @@ namespace SportingSolutions.Udapi.Sdk.Clients
 
             return (T)JsonConvert.DeserializeObject(response.Content, type, SerializerSettings);
         }
-
-        string IDeserializer.RootElement { get; set; }
-        string IDeserializer.Namespace { get; set; }
-        string IDeserializer.DateFormat { get; set; }
         public string ContentType { get; set; }
     }
 }

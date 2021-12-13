@@ -12,20 +12,17 @@
 //See the License for the specific language governing permissions and
 //limitations under the License.
 
-using System;
-using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Runtime.Caching;
-using log4net;
 using SportingSolutions.Udapi.Sdk.Interfaces;
 
 namespace SportingSolutions.Udapi.Sdk
 {
-    /// <summary>
-    /// This class is used to cache less volatile service data in order to avoid unnecessary API calls. 
-    /// Cache is automatically invalidated at predefined interval (default every 60 seconds).
-    /// </summary>
-    internal sealed class ServiceCache
+	/// <summary>
+	/// This class is used to cache less volatile service data in order to avoid unnecessary API calls. 
+	/// Cache is automatically invalidated at predefined interval (default every 60 seconds).
+	/// </summary>
+	internal sealed class ServiceCache
     {
         #region Constants
 

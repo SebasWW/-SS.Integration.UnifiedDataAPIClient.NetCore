@@ -13,11 +13,7 @@
 //limitations under the License.
 
 
-using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
 using Akka.Actor;
 using log4net;
 using SportingSolutions.Udapi.Sdk.Interfaces;
@@ -25,7 +21,7 @@ using SportingSolutions.Udapi.Sdk.Model.Message;
 
 namespace SportingSolutions.Udapi.Sdk.Actors
 {
-    internal class EchoControllerActor : ReceiveActor, IEchoController
+	internal class EchoControllerActor : ReceiveActor, IEchoController
     {
         private class EchoEntry
         {
